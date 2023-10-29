@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-import {chocolatesList} from '../results/chocolates.js'
+import {chocolatesList} from '../src/chocolates.js'
 
 
 describe('Test the store api', () => {
