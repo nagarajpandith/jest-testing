@@ -1,7 +1,9 @@
 {
-    "typeAcquisition": {
-        "include": [
-            "jest"
-        ]
-    }
+  "compilerOptions": {
+    "target": "es6"
+  },
+  "typeAcquisition": {
+    "include": ["jest"]
+  },
+  "exclude": ["node_modules"]
 }
